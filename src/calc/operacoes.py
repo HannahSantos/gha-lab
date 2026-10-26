@@ -8,6 +8,8 @@ def soma(a: float, b: float) -> float:
 def subtrai(a: float, b: float) -> float:
     return a - b
 
+def multiplica(a: float, b: float) -> float:
+    return a * b
 
 def divide(a: float, b: float) -> float:
     if b == 0:
