@@ -57,3 +57,11 @@ docker run --rm -v "$(pwd)":/app gha-lab-dev pytest -v
 
 `git commit` e `git push` são feitos **no seu computador**, onde estão as
 credenciais do GitHub.
+
+## 4. Actions
+
+```bash
+Olá             # Mostra a versão do Runner, python o evento trigger (push ou workflow_dispatch)
+Eventos         # Diz "olá" dependendo do sua opção de nome (workflow_dispatch)! Também fala do evento trigger (push em src/** ou workflow_dispatch)
+
+```
