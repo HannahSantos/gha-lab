@@ -21,4 +21,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Olá com Evento
-        run: "Olá ${{ inputs.nome }}, o evento realizado foi ${{ github.event_name }}"
+        run: echo "Olá ${{ inputs.nome }}, o evento realizado foi ${{ github.event_name }}"
