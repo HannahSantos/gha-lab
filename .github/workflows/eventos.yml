@@ -9,9 +9,9 @@ on:
         default: "turma" 
         type: choice
         options:
-          - Eu
-          - Você
-          - Lula
+          - ${{github.actor}}
+          - Dev
+          - turma
   push:
     paths:
       - "src/**"
